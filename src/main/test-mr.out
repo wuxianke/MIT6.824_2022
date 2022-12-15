@@ -1,0 +1,60 @@
+*** Starting wc test.
+Distributing map task on 7th file ../pg-tom_sawyer.txt
+Distributing map task on 6th file ../pg-sherlock_holmes.txt
+Got 7th mapTask of ../pg-tom_sawyer.txt file
+Distributing map task on 5th file ../pg-metamorphosis.txt
+Got 6th mapTask of ../pg-sherlock_holmes.txt file
+Got 5th mapTask of ../pg-metamorphosis.txt file
+Map task on 5th file ../pg-metamorphosis.txt complete
+Distributing map task on 4th file ../pg-huckleberry_finn.txt
+Got 4th mapTask of ../pg-huckleberry_finn.txt file
+Map task on 7th file ../pg-tom_sawyer.txt complete
+Distributing map task on 3th file ../pg-grimm.txt
+Got 3th mapTask of ../pg-grimm.txt file
+Map task on 6th file ../pg-sherlock_holmes.txt complete
+Distributing map task on 2th file ../pg-frankenstein.txt
+Got 2th mapTask of ../pg-frankenstein.txt file
+Map task on 4th file ../pg-huckleberry_finn.txt complete
+Distributing map task on 1th file ../pg-dorian_gray.txt
+Got 1th mapTask of ../pg-dorian_gray.txt file
+Map task on 3th file ../pg-grimm.txt complete
+Distributing map task on 0th file ../pg-being_ernest.txt
+Got 0th mapTask of ../pg-being_ernest.txt file
+Map task on 2th file ../pg-frankenstein.txt complete
+Map task on 0th file ../pg-being_ernest.txt complete
+Map task on 1th file ../pg-dorian_gray.txt complete
+Distributing reduceTask on part 9 0th file 
+Got the reduceTask of part 9
+Reduce task on 9th part complete
+Distributing reduceTask on part 8 0th file 
+Got the reduceTask of part 8
+Reduce task on 8th part complete
+Distributing reduceTask on part 7 0th file 
+Got the reduceTask of part 7
+Reduce task on 7th part complete
+Distributing reduceTask on part 6 0th file 
+Got the reduceTask of part 6
+Reduce task on 6th part complete
+Distributing reduceTask on part 5 0th file 
+Got the reduceTask of part 5
+Reduce task on 5th part complete
+Distributing reduceTask on part 4 0th file 
+Got the reduceTask of part 4
+Distributing reduceTask on part 3 0th file 
+Got the reduceTask of part 3
+Distributing reduceTask on part 2 0th file 
+Got the reduceTask of part 2
+Reduce task on 4th part complete
+Distributing reduceTask on part 1 0th file 
+Got the reduceTask of part 1
+Reduce task on 3th part complete
+Distributing reduceTask on part 0 0th file 
+Got the reduceTask of part 0
+Reduce task on 1th part complete
+Reduce task on 0th part complete
+Reduce task on 2th part complete
+All tasks completed...
+All tasks completed...
+All tasks completed...
+--- wc test: PASS
+*** Starting indexer test.

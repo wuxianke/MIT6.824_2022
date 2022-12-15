@@ -6,8 +6,10 @@ package mr
 // remember to capitalize all names.
 //
 
-import "os"
-import "strconv"
+import (
+	"os"
+	"strconv"
+)
 
 //
 // example to show how to declare the arguments
@@ -24,6 +26,27 @@ type ExampleReply struct {
 
 // Add your RPC definitions here.
 
+// 任务类型常量
+const (
+	MapTask    = 0
+	ReduceTask = 1
+	WaitTask   = 2
+	EndTask    = 3
+)
+
+type TaskInfo struct {
+	// 任务状态
+	TaskType int
+	// 文件名称
+	FileName string
+	// 文件索引
+	FileIndex int
+	// 分区索引
+	PartIndex int
+
+	NReduce int
+	NFiles  int
+}
 
 // Cook up a unique-ish UNIX-domain socket name
 // in /var/tmp, for the coordinator.
